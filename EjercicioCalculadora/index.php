@@ -5,7 +5,7 @@ if (!empty($_GET["numero1"]) && !empty($_GET["numero2"]) && !empty($_GET["boton"
     $numero2 = $_GET["numero2"];
     
     switch ($_GET["boton"]) {
-        case "1" :
+        case "1":
             $resultado = $numero1 + $numero2;
             break;
         case "2":

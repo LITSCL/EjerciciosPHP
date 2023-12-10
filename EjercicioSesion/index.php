@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (!$_SESSION["numero"]) { //Se consulta si exsiste la sesión, si no existe se crea.
+if (!$_SESSION["numero"]) { //Se consulta si exsiste la sesiÃ³n, si no existe se crea.
     $_SESSION["numero"] = 0;
 }
 
